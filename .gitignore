@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# folder
+bidaf-elmo-model-2018.11.30-charpad/
+bidaf-model-2020.02.10-charpad/
