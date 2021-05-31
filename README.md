@@ -35,10 +35,10 @@ We attempt to build a simple Question Answering (QA) engine with [AllenNLP][4] l
 ├── requirements.txt
 └── README.md
 ```
-**Note that due to the file size limitation of Github, `bidaf-model-2020.02.10-charpad ` folder are not included, Contact author for more details**   
+**Note that due to the file size limitation of Github, `bidaf-model-2020.02.10-charpad` folder are not included, Contact author for more details**   
 
 
-## Usage (After acquiring `weights` and `data`)               
+## Usage (After acquiring `bidaf-model-2020.02.10-charpad`)               
 
 1. Quick Start             
 
