@@ -66,6 +66,12 @@ bash train.sh
 It will save the trained weights in the `weights` folder. Make sure `train_data_path` and `validation_data_path` is set properly in `config.json`.
 
 
+
+https://user-images.githubusercontent.com/46531622/120223193-cbbb2800-c273-11eb-9d10-ff90d11ca956.mov
+
+
+
+
 [1]: https://arxiv.org/abs/1706.03762
 [2]: https://arxiv.org/abs/1810.04805
 [3]: https://arxiv.org/abs/1611.01603
