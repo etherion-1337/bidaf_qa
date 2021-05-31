@@ -6,7 +6,7 @@ The development of natural language processing (NLP) has come a long way. It sta
 
 We attempt to build a simple Question Answering (QA) engine with [AllenNLP][4] library.               
 
-### Repository Structure
+## Repository Structure
 
 ```
 .
@@ -35,8 +35,10 @@ We attempt to build a simple Question Answering (QA) engine with [AllenNLP][4] l
 ├── requirements.txt
 └── README.md
 ```
+**Note that due to the file size limitation of Github, `bidaf-model-2020.02.10-charpad ` folder are not included, Contact author for more details**   
 
-### Usage (After acquiring `weights` and `data`)               
+
+## Usage (After acquiring `weights` and `data`)               
 
 1. Quick Start             
 
@@ -65,10 +67,20 @@ bash train.sh
 ```
 It will save the trained weights in the `weights` folder. Make sure `train_data_path` and `validation_data_path` is set properly in `config.json`.
 
-
+## Short Demo
 
 https://user-images.githubusercontent.com/46531622/120223193-cbbb2800-c273-11eb-9d10-ff90d11ca956.mov
 
+
+## TODO         
+~~1. Re-organise folders~~                  
+~~2. Redesign Front end~~                 
+~~3. Dockerize the App~~                
+4. Deploy on AWS EC2            
+
+## Author
+
+Zk Xav
 
 
 
