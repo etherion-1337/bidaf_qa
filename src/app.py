@@ -2,10 +2,7 @@ import streamlit as st
 from allennlp import pretrained
 import matplotlib.pyplot as plt
 import numpy as np
-import pdftotext
-from PIL import Image
 from allennlp.predictors.predictor import Predictor
-import docx2txt
 
 st.header("Query Engine")
 st.subheader("by Zk Xav")
@@ -21,21 +18,6 @@ def load_model():
     return predictor
 
 predictor = load_model()
-
-# uploaded_files = st.file_uploader("Choose a file", type=['txt', 'pdf', 'docx'])
-
-# data = "Please input your files" 
-
-# text or pdf or docx
-# if uploaded_files is not None:
-#     data = uploaded_files.getvalue()
-#     if data[:5] == b'%PDF-':
-#         pdf_txt = pdftotext.PDF(uploaded_files)
-#         data = "\n\n".join(pdf_txt)
-#     elif data[:5] == b'PK\x03\x04\x14':
-#         data = docx2txt.process(uploaded_files)
-#     else:
-#         pass
 
 data = st.text_input("Context", "type your context")
 
