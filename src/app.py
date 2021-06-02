@@ -13,7 +13,7 @@ bidaf_elmo_path = "../bidaf-elmo-model-2018.11.30-charpad"
 @st.cache(allow_output_mutation=True)
 def load_model():
 
-    serialization_dir = bidaf_path
+    serialization_dir = bidaf_elmo_path
     predictor = Predictor.from_path(serialization_dir)
     return predictor
 
